@@ -11,30 +11,25 @@ const About = () => {
           <div className="about-text">
             <h3>Who I Am</h3>
             <p>
-              I'm a passionate developer with a love for creating innovative solutions 
-              and beautiful user experiences. With a strong foundation in both frontend 
-              and backend development, I enjoy tackling complex problems and turning 
-              ideas into reality.
+              I'm a passionate full-stack developer with a strong interest in data science. I specialize in both frontend and backend development, crafting clean, responsive, and user-friendly applications. I love solving real-world problems with code and bringing ideas to life through thoughtful design and functionality.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, 
-              contributing to open-source projects, or sharing knowledge with the 
-              developer community. I believe in continuous learning and staying 
-              up-to-date with the latest industry trends.
+              When I'm not coding, I spend time exploring new technologies, contributing to open-source projects, and sharing knowledge within the developer community. I also engage in civil engineering–related work during my free time, combining my technical skills with real-world applications. I believe in continuous learning and always stay up-to-date with the latest industry trends.
             </p>
             
             <div className="about-stats">
               <div className="stat">
-                <h4>3+</h4>
-                <p>Years Experience</p>
+                <h4>3+
+                </h4>
+                <p>Years Learning</p>
               </div>
               <div className="stat">
-                <h4>20+</h4>
+                <h4>6+</h4>
                 <p>Projects Completed</p>
               </div>
               <div className="stat">
-                <h4>15+</h4>
-                <p>Happy Clients</p>
+                <h4>5+</h4>
+                <p>Happy Groups</p>
               </div>
             </div>
           </div>
@@ -46,17 +41,17 @@ const About = () => {
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content">
-                    <h5>Senior Developer</h5>
-                    <p>Tech Company • 2022 - Present</p>
-                    <p>Leading development teams and architecting scalable solutions</p>
+                    <h5>Group Projects – Full Stack Developer</h5>
+    <p>Academic Work • Ongoing</p>
+    <p>Collaborated with team members to build functional full-stack applications, practicing Agile methodologies and version control tools like Git.</p>
                   </div>
                 </div>
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content">
-                    <h5>Full Stack Developer</h5>
-                    <p>Startup • 2020 - 2022</p>
-                    <p>Built and maintained web applications using modern technologies</p>
+                    <h5>Individual Projects – Full Stack Developer</h5>
+    <p>Academic Work • Ongoing</p>
+    <p>Independently developed responsive and interactive web applications, focusing on both UI/UX and backend logic using technologies such as React, Node.js, and MySQL.</p>
                   </div>
                 </div>
               </div>
@@ -66,12 +61,24 @@ const About = () => {
               <h4>Education</h4>
               <div className="education">
                 <div className="education-item">
-                  <h5>Bachelor's in Computer Science</h5>
-                  <p>University Name • 2016 - 2020</p>
+                  <h5>Undergraduate in Bsc Honours in Information Technology Specialized in Data Science</h5>
+                  <p>Sri Lanka Institute of Information Technology • 2023 - 2027</p>
+                </div>
+              
+                <div className="education-item">
+                  <h5>Undergraduate in Bsc Honours in Engineering Specialized in Civil Engineering</h5>
+                  <p>Open University of Sri Lanka • 2022 - 2027</p>
                 </div>
                 <div className="education-item">
+                  <h5>National Certificate in Engineering Draughtsmanship</h5>
+                  <p>Department of Technical Education and Training • 2021 - 2022</p>
+                </div>
+                <div className="education-item">
+
                   <h5>Certifications</h5>
-                  <p>AWS Certified Developer, Google Cloud Professional</p>
+                  <p>IBM Certified Developer, Python for Data Science, AI & Development</p>
+                  <p>National Certification in Professional English</p>
+                  <p>IBM Certified Developer, Python for Data Science, AI & Development</p>
                 </div>
               </div>
             </div>

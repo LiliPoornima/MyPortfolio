@@ -6,8 +6,8 @@ const Skills = () => {
         { name: "React", level: 90 },
         { name: "JavaScript", level: 85 },
         { name: "HTML/CSS", level: 95 },
-        { name: "TypeScript", level: 80 },
-        { name: "Vue.js", level: 75 }
+        { name: "Java", level: 80 },
+        { name: "Kotlin", level: 75 }
       ]
     },
     {
@@ -17,17 +17,23 @@ const Skills = () => {
         { name: "Python", level: 80 },
         { name: "Express.js", level: 90 },
         { name: "MongoDB", level: 75 },
-        { name: "PostgreSQL", level: 70 }
+        { name: "R", level: 70 },
+        { name: "PHP", level: 70 }
+  
+        
       ]
     },
     {
       category: "Tools & Others",
       skills: [
         { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Figma", level: 65 },
-        { name: "Linux", level: 80 }
+        { name: "Jupyter", level: 75 },
+        { name: "Figma", level: 90 },
+        { name: "Postman", level: 80 }, 
+        { name: "MySQL", level: 80 },
+        { name: "Apache Tomcat", level: 70 },
+        { name: "XAMPP", level: 70 },
+        { name: "Eclipse", level: 80 }
       ]
     }
   ]
@@ -67,16 +73,15 @@ const Skills = () => {
         <div className="additional-skills">
           <h3>Additional Skills</h3>
           <div className="skills-tags">
-            <span className="skill-tag">REST APIs</span>
-            <span className="skill-tag">GraphQL</span>
-            <span className="skill-tag">Redux</span>
-            <span className="skill-tag">Next.js</span>
             <span className="skill-tag">Tailwind CSS</span>
-            <span className="skill-tag">Jest</span>
-            <span className="skill-tag">CI/CD</span>
+            <span className="skill-tag">Revit</span>
+            <span className="skill-tag">Autocad</span>
             <span className="skill-tag">Agile</span>
             <span className="skill-tag">Scrum</span>
-            <span className="skill-tag">RESTful APIs</span>
+            <span className="skill-tag">MS Word</span>
+            <span className="skill-tag">MS Excel</span>
+            <span className="skill-tag">MS PowerPoint</span>
+            <span className="skill-tag">Typing Skill</span>
           </div>
         </div>
       </div>

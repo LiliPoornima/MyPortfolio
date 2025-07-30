@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -31,23 +32,23 @@ const Contact = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
-      icon: '📱'
+      url: 'https://github.com/LiliPoornima',
+      icon: <FaGithub />
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
-      icon: '💼'
+      url: 'https://www.linkedin.com/in/poornima-liyanage-033b46346/',
+      icon: <FaLinkedin />
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/yourusername',
-      icon: '🐦'
+      name: 'Instagram',
+      url: 'https://www.instagram.com/liyapoorni',
+      icon: <FaInstagram />
     },
     {
       name: 'Email',
-      url: 'mailto:your.email@example.com',
-      icon: '✉️'
+      url: 'mailto:n.poornimaliyanage@gmail.com',
+      icon: <FaEnvelope />
     }
   ]
 
@@ -73,7 +74,7 @@ const Contact = () => {
                 <span className="contact-icon">📍</span>
                 <div>
                   <h4>Location</h4>
-                  <p>Your City, Country</p>
+                  <p>Kandy, Sri Lanka</p>
                 </div>
               </div>
               
@@ -81,15 +82,7 @@ const Contact = () => {
                 <span className="contact-icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>your.email@example.com</p>
-                </div>
-              </div>
-              
-              <div className="contact-item">
-                <span className="contact-icon">📱</span>
-                <div>
-                  <h4>Phone</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <p>n.poornimaliyanage@gmail.com</p>
                 </div>
               </div>
             </div>

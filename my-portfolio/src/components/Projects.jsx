@@ -6,64 +6,82 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.",
-      image: "https://via.placeholder.com/400x250/4F46E5/FFFFFF?text=E-Commerce",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Online Auction System",
+      subtitle: "BidMaster",
+      description: "Bid Master is a full-featured online auction platform built with the MERN stack, designed for real-time bidding, secure payments, and seamless item management. It features live auction updates with WebSockets, Stripe-powered transactions, role-based access control, and automated email notifications—all wrapped in a responsive, user-friendly interface.",
+      image: "bidm.jpg",
+      technologies: ["JavaScript", "Node.js", "React", "MongoDB","Express","JWT","Stripe"],
       category: "fullstack",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/LiliPoornima"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://via.placeholder.com/400x250/10B981/FFFFFF?text=Task+App",
-      technologies: ["Vue.js", "Firebase", "Vuex", "Vuetify"],
-      category: "frontend",
+      title: "Finance Tracker",
+      subtitle: "SpendMaster",
+      description: "SpendMaster is a modern Android app built with Kotlin and MVVM architecture for intuitive expense tracking and financial analytics. It features a clean Material Design UI, local data storage with Room, customizable categories, and insightful visualizations. Designed with scalability and maintainability in mind, it follows modular architecture and Android development best practices, offering a fast, offline-first experience with support for unit and UI testing.",
+      image: "spendm.png",
+      technologies: ["Kotlin", "MVVM", "Material Design", "RoomDatabase "],
+      category: ["frontend","backend"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/LiliPoornima"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A weather dashboard that displays current weather conditions and forecasts using OpenWeatherMap API with beautiful visualizations.",
-      image: "https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Weather+App",
-      technologies: ["JavaScript", "HTML/CSS", "Chart.js", "API"],
-      category: "frontend",
+      title: "Portfolio Website",
+      subtitle: "MyPortfolio",
+      description: "A sleek and modern personal portfolio website to showcase my projects, skills, and experience. Built with React and styled-components for a fast, responsive, and visually appealing user experience.",
+      image: "portfolio.png",
+      technologies: ["React","Vite", "JavaScript","CSS"],
+      category: ["frontend","backend"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/LiliPoornima"
     },
     {
       id: 4,
-      title: "Blog API",
-      description: "A RESTful API for a blog platform with user authentication, CRUD operations, and file upload functionality.",
-      image: "https://via.placeholder.com/400x250/EF4444/FFFFFF?text=Blog+API",
-      technologies: ["Express.js", "JWT", "Multer", "PostgreSQL"],
-      category: "backend",
+      title: "Finace Tracker",
+      subtitle: "SpendMaster2",
+      description: "A sleek and modern personal finance app built with Kotlin and MVVM architecture to track income, expenses, and budgets. Features interactive charts with MPAndroidChart, secure authentication, smart budget alerts, and export/import options for a fast, responsive, and visually appealing user experience.",
+      image: "spendm2.png",
+      technologies: ["Kotlin", "MVVM", "Material Design", "SharedPreferences "],
+      category: ["frontend","backend"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/LiliPoornima"
     },
     {
       id: 5,
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and styled with CSS animations and smooth transitions.",
-      image: "https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=Portfolio",
-      technologies: ["React", "CSS3", "JavaScript", "Responsive"],
+      title: "Home Maintenance App",
+      subtitle: "HomeRescue",
+      description: "HomeRescue is a modern Android app built with Kotlin, designed to connect homeowners with professional service providers for tasks like plumbing, electrical work, cleaning, and more. Featuring secure authentication, a clean user interface, and responsive design, it offers a seamless experience for booking home services with just a few taps.",
+      image: "homerescue.png",
+      technologies: ["Kotlin", "XML","Gradle","Android SDK"],
       category: "frontend",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/LiliPoornima"
     },
     {
       id: 6,
-      title: "Chat Application",
-      description: "Real-time chat application with socket.io, featuring private messaging, group chats, and file sharing capabilities.",
-      image: "https://via.placeholder.com/400x250/06B6D4/FFFFFF?text=Chat+App",
-      technologies: ["Socket.io", "Node.js", "React", "MongoDB"],
+      title: "Employee Management System",
+      subtitle: "WorkNest",
+      description: "WorkNest is a secure web-based Employee Management System built with Java Servlets, JSP, and MySQL. It features role and designation management with full CRUD operations, user authentication, and a responsive interface. Designed for clarity and scalability, WorkNest simplifies HR tasks like managing organizational roles through a clean and intuitive user experience.",
+      image: "emp.jpg",
+      technologies: ["Java", "Java Servlets", "MySQL", "JDBC", "JSP","HTML","CSS","Tomcat"],
       category: "fullstack",
       liveUrl: "#",
-      githubUrl: "#"
-    }
+      githubUrl: "https://github.com/LiliPoornima"
+    },
+    {
+      id: 7,
+      title: "Bus Scheduling & Ticket Booking System",
+      subtitle: "RouteMaster",
+      description: "RouteMaster is a web-based bus scheduling and booking system built with PHP and MySQL, designed to simplify and streamline public transportation management. It features real-time bus search, secure seat reservation, integrated payment processing, and dedicated dashboards for passengers, drivers, and administrators—all within a responsive, user-friendly interface.",
+      image: "bus.png",
+      technologies: ["JavaScript", "PHP", "MySQL", "Apache/XAMPP", "HTML", "CSS"],
+      category: "fullstack",
+      liveUrl: "#",
+      githubUrl: "https://github.com/LiliPoornima"
+    },
+    
   ]
 
   const filters = [
@@ -102,24 +120,20 @@ const Projects = () => {
             <div key={project.id} className="project-card">
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
-                <div className="project-overlay">
-                  <div className="project-links">
-                    <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
-                      <span>Live Demo</span>
-                    </a>
-                    <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
-                      <span>GitHub</span>
-                    </a>
-                  </div>
-                </div>
               </div>
               <div className="project-content">
                 <h3>{project.title}</h3>
+                {project.subtitle && <h4 className="project-subtitle">{project.subtitle}</h4>}
                 <p>{project.description}</p>
                 <div className="project-technologies">
                   {project.technologies.map((tech, index) => (
                     <span key={index} className="tech-tag">{tech}</span>
                   ))}
+                </div>
+                <div className="project-links">
+                  <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>

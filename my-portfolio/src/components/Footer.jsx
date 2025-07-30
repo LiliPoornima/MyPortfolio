@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-text">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2025 Poornima Liyanage. All rights reserved.</p>
             <p>Built with ❤️ using React</p>
           </div>
           <button className="back-to-top" onClick={scrollToTop}>
