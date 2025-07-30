@@ -4,14 +4,6 @@ A modern, responsive developer portfolio built with **React** and **Vite**. Show
 
 ![Portfolio Screenshot](public/bidmaster.jpg)
 
----
-
-## 🚀 Live Demo
-
-> _[Add your live URL here when deployed!]_
-
----
-
 ## ✨ Features
 
 - **Single Page Application** with smooth navigation and scroll animations
