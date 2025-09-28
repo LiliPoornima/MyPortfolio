@@ -4,32 +4,6 @@ A modern, responsive developer portfolio built with **React** and **Vite**. Show
 
 ![Portfolio Screenshot](public/bidmaster.jpg)
 
-## ✨ Features
-
-- **Single Page Application** with smooth navigation and scroll animations
-- **Interactive Hero Section** with animated text transitions and professional profile display
-- **Project Showcase** with filtering capabilities (All, Frontend, Backend, Full Stack)
-- **Skills Section** with visual progress bars and proficiency indicators
-- **Responsive Design** optimized for desktop, tablet, and mobile devices
-- **Contact Form** for easy communication
-- **Loading Animation** for enhanced user experience
-- **Modern UI/UX** with custom CSS animations and hover effects
-- **Professional Profile Display** with circular avatar and centered image positioning
-
----
-
-## 🛠️ Built With
-
-### Core Technologies
-- **React 19.1.0** - UI library for building interactive components
-- **Vite 7.0.4** - Fast build tool and development server
-- **JavaScript (ES6+)** - Modern JavaScript features and syntax
-- **CSS3** - Custom styling with advanced animations and responsive design
-
-### Development Tools
-- **ESLint** - Code linting and quality assurance
-- **gh-pages** - GitHub Pages deployment
-- **Git & GitHub** - Version control and hosting
 
 ### Featured Project Technologies
 - **Socket.io** - Real-time communication
@@ -41,29 +15,29 @@ A modern, responsive developer portfolio built with **React** and **Vite**. Show
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-
+```bash
 my-portfolio/
 ├── public/
-│   ├── cvid.jpg          # Profile picture
-│   └── bidmaster.jpg     # Project images
+│   ├── #Images           
 ├── src/
 │   ├── components/
-│   │   ├── About.jsx     # About section component
-│   │   ├── Contact.jsx   # Contact form component
-│   │   ├── Hero.jsx      # Hero section with animated text
-│   │   ├── Navbar.jsx    # Navigation component
-│   │   ├── Projects.jsx  # Projects showcase with filtering
-│   │   ├── Skills.jsx    # Skills display with progress bars
-│   │   └── Footer.jsx    # Footer component
-│   ├── App.jsx           # Main application component
-│   ├── App.css           # Main stylesheet with advanced styling
-│   ├── index.css         # Global styles and font imports
-│   └── main.jsx          # Application entry point
-├── package.json          # Dependencies and scripts
-├── vite.config.js        # Vite configuration
-└── README.md            # Project documentation
+│   │   ├── About.jsx     
+│   │   ├── Contact.jsx  
+│   │   ├── Hero.jsx      
+│   │   ├── Navbar.jsx    
+│   │   ├── Projects.jsx  
+│   │   ├── Skills.jsx    
+│   │   └── Footer.jsx   
+│   ├── App.jsx           
+│   ├── App.css          
+│   ├── index.css        
+│   └── main.jsx          
+├── package.json          
+├── vite.config.js        
+└── README.md             
+
 
 ## 🎨 Key Features Explained
 
