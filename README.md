@@ -65,36 +65,6 @@ my-portfolio/
 ├── vite.config.js        # Vite configuration
 └── README.md            # Project documentation
 
-
-## 🖥️ Getting Started
-
-### Prerequisites
-- Node.js (version 14 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository:**
-   sh
-   git clone https://github.com/LiliPoornima/MyPortfolio.git
-   cd MyPortfolio/my-portfolio
-   
-
-2. **Install dependencies:**
-   sh
-   npm install
-  
-
-3. **Start development server:**
-   sh
-   npm run dev
-   
-
-4. **Open your browser:**
-   Navigate to `http://localhost:5173`
-
-
-
 ## 🎨 Key Features Explained
 
 ### Hero Section
@@ -121,11 +91,6 @@ my-portfolio/
   [GitHub](https://github.com/LiliPoornima)
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 ## 🙏 Acknowledgements
@@ -138,39 +103,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🔧 Customization
-
-### Adding New Projects
-Edit the `projects` array in `src/components/Projects.jsx`:
-```javascript
-{
-  id: 9,
-  title: "Your Project Name",
-  subtitle: "Optional subtitle",
-  description: "Project description",
-  image: "your-image.jpg",
-  technologies: ["React", "Node.js"],
-  category: "fullstack",
-  githubUrl: "https://github.com/yourusername/your-repo"
-}
-```
-
-### Updating Skills
-Edit the `skillCategories` array in `src/components/Skills.jsx`:
-```javascript
-{
-  category: "Your Category",
-  skills: [
-    { name: "Skill Name", level: 85 }
-  ]
-}
-```
-
-### Styling Changes
-- Main styles: `src/App.css`
-- Global styles: `src/index.css`
-- Component-specific styles can be added to individual component files
-
----
-
-> _Feel free to customize this portfolio to better reflect your personal style and experience!_
