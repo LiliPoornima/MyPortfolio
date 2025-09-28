@@ -13,11 +13,10 @@ A modern, responsive developer portfolio built with **React** and **Vite**. Show
 - **Stripe** - Payment processing
 - **Styled-Components** - CSS-in-JS styling
 
----
 
-## 📂 Project Structure
+### 📂 Project Structure
 
-```bash
+```
 my-portfolio/
 ├── public/
 │   ├── #Images           
@@ -37,10 +36,10 @@ my-portfolio/
 ├── package.json          
 ├── vite.config.js        
 └── README.md             
-
+```
 
 ## 🎨 Key Features Explained
-
+---
 ### Hero Section
 - **Animated Text**: Rotating titles (Full Stack Developer, UI/UX Designer, etc.)
 - **Profile Display**: Circular avatar with centered image positioning
